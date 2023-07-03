@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTDC HoTel</title>
+    <link rel="stylesheet" href="css\bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-lg bg-success fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white fw-bold" href="#">HTDC Resort & Spa, Cochin</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#carouselExampleCaptions">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Booking">Book Now</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Membership
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">NeuPass</a></li>
+                  <li><a class="dropdown-item" href="#">Epicure</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Add Membership</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Location</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!--Carousal-->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/Bg1.jpeg" class="slide d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block bg-light">
+              <h5 class="text-success">HTDC Resort & Spa, Cochin</h5>
+              <p class="text-dark">Presenting the 4D Travel Experience</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/bg2.jpeg" class="slide d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block bg-light">
+              <h5 class="text-success">Meetings & Event Spaces</h5>
+              <p class="text-dark">Use the charming yet elegant space of the Bristow Hall for small social gatherings or corporate functions.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/bg3.jpeg" class="slide d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block bg-light">
+              <h5 class="text-success">Enchanting variety of cuisines</h5>
+              <p class="text-dark">we are offering delectable dishes that will whet your appetite</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--Booking Section-->
+      
+      <div class="container" id="Booking">
+        <h1 class="text-center">Book Now</h1>
+        <div class="row my-3">
+          <div class="col-4">
+            <div class="card border-2 border-success" style="width: 20rem; height: 28rem;">
+            <img src="./images/Sup-room.jpeg" class="card-img-top" alt="...">
+            <div class="card-body ">
+              <h5 class="card-title">Superior Room Tower Wing</h5>
+              <p class="card-text">Envious views of the port and city beckon to you, framed by charming French windows.</p>
+              <h5 class="card-title text-danger">₹ 8,000*</h5>
+              <a href="#" class="btn btn-primary">Select Room</a>
+            </div>
+          </div>
+        </div>
+          <div class="col-4">
+            <div class="card border-2 border-success" style="width: 20rem; height: 28rem;">
+                <img src="./images/Tower-wing.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Premium Sunset Room Tower Wing</h5>
+                  <p class="card-text">With a stunning view of the glorious sun setting in the horizon, the Premium Sunset Room is one of the most sought­after chambers at Taj Malabar Resort & Spa, Cochin.</p>
+                  <h5 class="card-title text-danger">₹ 12,000*</h5>
+                  <a href="#" class="btn btn-primary">Select Room</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-4">
+            <div class="card border-2 border-success" style="width: 20rem; height: 28rem;">
+                <img src="./images/exec-suite.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Executive Suite </h5>
+                  <p class="card-text">The Executive Suite 1 Bedroom Sea View comes with a separate living room, bedroom, king-sized four poster bed, study area, breakfast table and a spacious marble clad bathroom</p>
+                  <h5 class="card-title text-danger">₹ 19,200*</h5>
+                  <a href="#" class="btn btn-primary">Select Room</a>
+                </div>
+              </div>
+          </div>  
+        </div>
+        <div class="row my-4">
+            <div class="col-4">
+                <div class="card border-2 border-success" style="width: 20rem; height: 31rem;">
+                    <img src="./images/Lux-suite.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Luxury Suite Seaview Heritage Wing</h5>
+                      <p class="card-text">If you revel in being treated like royalty, this room has been transformed into a place worthy of a king. Regally appointed with both Victorian and Indian styles.</p>
+                      <h5 class="card-title text-danger">₹ 25,600*</h5>
+                      <a href="#" class="btn btn-primary">Select Room</a>
+                    </div>
+                  </div>
+            </div>
+          <div class="col-4">
+            <div class="card border-2 border-success" style="width: 20rem; height: 31rem;">
+                <img src="./images/Lux-tower.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Luxury Suite Seaview Tower Wing</h5>
+                  <p class="card-text">Luxury Suite 1 Bedroom Seaview Tower Wing
+                    If you revel in being treated like royalty, this room has been transformed into a place worthy of a king. Regally appointed with both Victorian and Indian styles,</p>
+                    <h5 class="card-title text-danger">₹ 32,400*</h5>
+                    <a href="#" class="btn btn-primary">Select Room</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-4">
+            <div class="card border-2 border-success" style="width: 20rem; height: 31rem;">
+                <img src="./images/presd-suite.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Presidential Suite Sea view Heritage Wing</h5>
+                  <p class="card-text">Nestled in the Heritage Wing at Taj Malabar Resort & Spa, Cochin, the Presidential 1 Bedroom Suite is a class apart. With a 104 Sq Mt balcony that overlooks the infinite sea</p>
+                  <h5 class="card-title text-danger">₹ 65,800*</h5>
+                  <a href="#" class="btn btn-primary">Select Room</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Footer-->
+      <div class="container-fluid bg-success" id="footer">
+        <div class="row">
+            <h1 class="text-center">Location</h1>
+            <div class="col-6">
+                <h1 class="text-white">HTDC Resort & Spa</h1>
+                <h4>Cochin</h4>
+                <h4>Kerala</h4>
+                <p>Tel: 0474-3459</p>
+                <p>Email: HTDC.kerala@.com</p>
+            </div>
+            <div class="col-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d85135.26552801351!2d76.29834224911495!3d10.011752413675225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080b62a7688a1d%3A0xea20f6a86d090450!2sInfopark%20Campus%2C%20Kochi%2C%20Kerala%20682030!5e0!3m2!1sen!2sin!4v1687425083808!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <!--Bootstrap JS-->
+    <script src="js\bootstrap.js"></script>
+</body>
+</html>

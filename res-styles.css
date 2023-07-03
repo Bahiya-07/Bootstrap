@@ -1,0 +1,40 @@
+body{
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+img.slide{
+    height: 500px;
+}
+.about-section p{
+    font-size: 16px;
+    line-height: 28px;
+}
+.custom-font-h3{
+    font-size: 40px;
+}
+.homeslider h2{
+    font-size: 48px;
+    line-height: auto;
+}
+.service-box h4{
+    font-size: 24px;
+}
+.service-box img{
+    height: 250px;
+    width: 400px;
+}
+.contact-section{
+    background-image: url(./images/foot-bg.jpg);
+    background-size: 100%;
+
+}
+.address-box p{
+    font-size: 16px;
+    line-height: 30px;
+}
+.contact-box .form-control{
+    height: 50px;
+}
+.contact-box textarea.form-control{
+    height: 150px;
+}
